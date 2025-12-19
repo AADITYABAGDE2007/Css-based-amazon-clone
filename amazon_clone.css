@@ -10,6 +10,9 @@
     background-color: #087641;
     color: white;
     display: flex;
+    padding-left: 10px;
+    align-items: center;
+    gap: 1%;
 }
 .logo{
     background-image: url(logo.png);
@@ -21,9 +24,6 @@
 .nav-logo{
     width: 113px;
     height: 40px;
-    position: absolute;
-    top: 15px;
-    left: 8px;
 }
 .border{
     border: 1.5px solid transparent;
@@ -37,9 +37,6 @@
 .nav_address{
     width: 90px;
     height: 40px;
-    position: absolute;
-    top: 15px;
-    left: 130px;
 }
 
 .location{
@@ -54,11 +51,8 @@
 }
 
 .nav-search{
-    position: absolute;
-    left: 230px;
-    top: 15px;
     display: flex;
-    width: 800px;
+    width: 45%;
     height: 40px;
     text-align: center;
 }
@@ -95,16 +89,13 @@
     background-color: rgb(135, 59, 110);
 }
 #search-logo{
-    width: 700px;
+    width: 90%;
     height: 39px;
     font-size: 1rem;
     border: none;
 }
 
 .nav-signin{
-    position: absolute;
-    left: 1080px;
-    top: 15px;
     height: 40px;
     padding-left: 3px;
     padding-right: 3px;
@@ -118,18 +109,12 @@
 }
 
 .nav-return{
-    position: absolute;
-    left: 1210px;
-    top: 15px;
     height: 40px;
     padding-left: 3px;
     padding-right: 3px;
 }
 
 .cart-logo{
-    position: absolute;
-    left: 1280px;
-    top: 15px;
     width: 100px;
     height: 40px;
     display: flex;
